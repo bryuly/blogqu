@@ -25,34 +25,36 @@ resampleFilter = "lanczos"
 [[menu.main]]
 name = "Finance 101"
 url = "/finance 101"
-weight = 4
-
-[[menu.main]]
-identifier = "perkakas"
-name = "Perkakas"
-title = "Perkakas GNU/Linux"
-url = "/perkakas"
 weight = 1
 
 [[menu.main]]
 identifier = "terminal"
 name = "Budgeting"
-title = "Perintah-perintah dasar dan lanjutan GNU/Linux"
+title = "Manage money so you can do what you want."
 url = "/budgeting"
 weight = 2
 
 [[menu.main]]
-identifier = "desktop"
-name = "Desktop"
-title = "Kostumisasi lingkungan desktop GNU/Linux"
-url = "/desktop"
+identifier = "retirement"
+name = "Retirement"
+title = "Get to the finish line."
+url = "/retirement"
 weight = 3
 
+
+
 [[menu.main]]
-identifier = "profil"
+identifier = "desktop"
+name = "Placeholder"
+title = "currently not used...but might in the future."
+url = "/desktop"
+weight = 4
+
+[[menu.main]]
+identifier = "about"
 name = "About"
-title = "Tentang Doni Halim"
-url = "/profil"
+title = "Who I am."
+url = "/about"
 weight = 5
 
 
