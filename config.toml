@@ -23,8 +23,8 @@ resampleFilter = "lanczos"
 
 
 [[menu.main]]
-name = "Finance 101"
-url = "/finance 101"
+name = "Home"
+url = "/categories"
 weight = 1
 
 [[menu.main]]
@@ -41,12 +41,10 @@ title = "Get to the finish line."
 url = "/retirement"
 weight = 3
 
-
-
 [[menu.main]]
-identifier = "desktop"
-name = "Placeholder"
-title = "currently not used...but might in the future."
+identifier = "finance 101"
+name = "Finance 101"
+title = "Learn some terminology, concepts, and more."
 url = "/desktop"
 weight = 4
 
