@@ -1,104 +1,79 @@
-baseURL = "https://halimboi.netlify.app"
-languageCode = "id-ID"
 DefaultContentLanguage = "id"
-title = "halimboi.com"
+RemovePathAccents = true
+baseURL = "https://halimboi.netlify.app"
+canonifyURLs = true
+disqusShortname = "halimboi"
+enableRobotsTXT = true
+googleAnalytics = "UA-155099144-3"
+languageCode = "id-ID"
+paginate = 5
 theme = "less"
 timeout = 200000
-RemovePathAccents = true
-enableRobotsTXT = true
-canonifyURLs = true
-paginate = 5
-googleAnalytics = "UA-155099144-3"
-disqusShortname = "halimboi"
-
+title = "halimboi.com"
 [author]
-  name = "Doni Halim"
-
+name = "Doni Halim"
 [blackfriday]
-  hrefTargetBlank = true
-  noreferrerLinks = true
-  nofollowLinks = true
-
-[permalinks]
-  posts = "/:slug"
-  categories = "/:slug"
-
+hrefTargetBlank = true
+nofollowLinks = true
+noreferrerLinks = true
 [imaging]
-  resampleFilter = "lanczos"
-
+resampleFilter = "lanczos"
+[[menu.main]]
+identifier = "profil"
+name = "About"
+title = "Tentang Doni Halim"
+url = "/profil"
+weight = 4
+[[menu.main]]
+identifier = "desktop"
+name = "Desktop"
+title = "Kostumisasi lingkungan desktop GNU/Linux"
+url = "/desktop"
+weight = 3
+[[menu.main]]
+identifier = "terminal"
+name = "Terminal"
+title = "Perintah-perintah dasar dan lanjutan GNU/Linux"
+url = "/terminal"
+weight = 2
+[[menu.main]]
+identifier = "perkakas"
+name = "Perkakas"
+title = "Perkakas GNU/Linux"
+url = "/perkakas"
+weight = 1
 [params]
-  #googleAdsense = "ca-pub-3520097993586116"
-  copyright = "Halimboi"
-
-  # image size
-  sizes = [ "2048" , "1024" , "512" ]
-  tags = []
-
-  # fonts
-  sansSerifFont = "Josefin Sans"
-  titleFont = "Crimson Text"
-  bodyFont = "Lora"
-
-  # color
-  accentColor = "#00bcd4"
-  hasLogo = true
-  heroHeader = true
-
-[taxonomies]
-  category = "categories"
-
-[params.titles]
-  posts = "Linux"
-  categories = "Kategori"
-
-# social
-[params.social]
-  email = "donihalim@protonmail.com"
-  domain = "Doni Halim"
-  # instagram = "dsnvhlmb"
-  twitter = "halimboi"
-  # facebook = "drtunicorn"
-  linkedin = "doni-halim-16a6ba1a0"
-  # github = "donihalim"
-  paypal = "halimboi"
-  telegram = "dsnvhlm"
-
-# menu contents
-[[menu.main]]
-  name = "Perkakas"
-  title = "Perkakas GNU/Linux"
-  weight = 1
-  identifier = "perkakas"
-  url = "/perkakas"
-[[menu.main]]
-  name = "Terminal"
-  title = "Perintah-perintah dasar dan lanjutan GNU/Linux"
-  weight = 2
-  identifier = "terminal"
-  url = "/terminal"
-[[menu.main]]
-  name = "Desktop"
-  title = "Kostumisasi lingkungan desktop GNU/Linux"
-  weight = 3
-  identifier = "desktop"
-  url = "/desktop"
-[[menu.main]]
-  name = "Profil"
-  title = "Tentang Doni Halim"
-  weight = 4
-  identifier = "profil"
-  url = "/profil"
-
-# footer contents
+accentColor = "#00bcd4"
+bodyFont = "Lora"
+copyright = "Halimboi"
+hasLogo = true
+heroHeader = true
+sansSerifFont = "Josefin Sans"
+sizes = ["2048", "1024", "512"]
+tags = []
+titleFont = "Crimson Text"
 [params.license]
-  type = "CC BY-NC 4.0"
-  url = "/cc-by-nc"
-
+type = "CC BY-NC 4.0"
+url = "/cc-by-nc"
 [params.policy]
-  type = "Privacy Policy"
-  url = "/policy"
-
+type = "Privacy Policy"
+url = "/policy"
+[params.social]
+domain = "Doni Halim"
+email = "donihalim@protonmail.com"
+linkedin = "doni-halim-16a6ba1a0"
+paypal = "halimboi"
+telegram = "dsnvhlm"
+twitter = "halimboi"
+[params.titles]
+categories = "Kategori"
+posts = "Linux"
+[permalinks]
+categories = "/:slug"
+posts = "/:slug"
 [[related.indices]]
-  name = "categories"
-  weight =  1
-  includeNewer = true
+includeNewer = true
+name = "categories"
+weight = 1
+[taxonomies]
+category = "categories"
