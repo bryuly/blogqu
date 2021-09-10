@@ -1,28 +1,25 @@
 ---
-title: "Tentang Doni Halim"
-date: 2019-07-02T23:11:56+07:00
-publishdate: 2019-07-02
-lastmod: 2020-03-07
-draft: false
-type: "about"
+title: Bradley Yuly
+date: 2021-09-09T06:00:00+00:00
+publishdate: 2021-09-09T06:00:00+00:00
+lastmod: 2021-09-09T06:00:00+00:00
+type: about
 resources:
 - src: "*.jpeg"
-- src: "1.jpeg"
-  name: "cover"
----
+- src: 1.jpeg
+  name: cover
 
+---
 ![Banner](banner.png)
 
-# Profil
-Sampurasun.
+# Thank you for your interest.
 
-Saya **Doni Halim**, seorang _pelajar_ dari Bandung, Jawa Barat. Wilujeng sumping! Blog ini merupakan tempat saya membuat dokumentasi terkait hal-hal yang telah saya pelajari dalam bentuk artikel dan tutorial. Saat ini, tulisan saya berfokus pada sistem operasi **Linux** secara umum. Kedepannya semoga saya bisa mempelajari bidang IT secara lebih luas lagi dan mendokumentasikan-nya di sini.
+My name is **Bradley Yuly**. My day job is as a structural engineer. I created this website to document information I have learned through books, podcasts, websites and more. The hope is this website can pass some of that knowledge on to you. 
 
-Saya membangun blog ini menggunakan _Static Site Generator_ bernama ***Hugo*** dengan tampilan yang sedikit dimodifikasi dari tema buatan [Hervyqa](https://twitter.com/hervyqa) (Terima kasih Mas Hervy). Saya menggunakan ***Netlify*** sebagai hosting, dan memanfaatkan [Github](https://github.com/donihalim) sebagai hos untuk _source code_ blog ini (Open Source Banzai!).
+Take what is on my site for what it is, my opinion. I am not an expert but these idea's and principles have helped me to get to where I am today. Information on this website is not to be taken as advice for your personal situation, I take no liability for any decisions made based on information listed on this website.
 
-## Kontak
-Cara paling mudah untuk menghubungi saya adalah melalui Telegram di [@dsnvhlm](https://t.me/dsnvhlm) atau dengan menggunakan formulir kontak di bawah, namun pastikan alamat email yang Anda lampirkan aktif, karena nantinya saya akan membalas pesan tersebut ke alamat email yang Anda lampirkan. Oh ya, saya juga punya [Twitter](https://twitter.com/halimboi).
+## Contact Info
 
-Hatur nuhun ✌️.
+If you would like to contact me, please click this **link**. Shoot me a topic request or a personal question (I may create a segment if there is demand). 
 
 ***
