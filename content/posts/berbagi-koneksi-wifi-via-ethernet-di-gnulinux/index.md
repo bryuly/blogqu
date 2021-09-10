@@ -1,21 +1,20 @@
 ---
-draft: false
-date: 2020-02-16T08:54:06+07:00
+date: 2020-02-16T08:54:06.000+07:00
 publishdate: 2020-02-16
 lastmod: 2020-03-07
-title: "Berbagi Koneksi Wi-Fi Melalui Ethernet Di GNU/Linux"
-subtitle: "Mudah berbagi koneksi internet di GNU/Linux."
-description : "Konfigurasi NetworkManager untuk berbagi koneksi internet di GNU/Linux."
-slug: "berbagi-koneksi-wi-fi-melalui-ethernet-di-gnulinux"
+title: Berbagi Koneksi Wi-Fi Melalui Ethernet Di GNU/Linux
+subtitle: Mudah berbagi koneksi internet di GNU/Linux.
+description: Konfigurasi NetworkManager untuk berbagi koneksi internet di GNU/Linux.
+slug: berbagi-koneksi-wi-fi-melalui-ethernet-di-gnulinux
 categories:
+- budgeting
 - linux
 resources:
-- src: "cover.jpeg"
-  name: "cover"
+- src: cover.jpeg
+  name: cover
 - src: "*.jpeg"
+
 ---
-
-
 Sampurasun. Beberapa waktu lalu saya memiliki masalah untuk mengkoneksikan internet ke perangkat Raspberry Pi, dikarenakan versi Raspberry Pi yang saya miliki terbilang cukup jadul (Raspberry Pi 1B) yang mana tidak memiliki _built-in_ wifi. Tentu saya dapat mengkoneksikan internet melalui USB-Tethring, namun nantinya akan timbul masalah ketika saya ingin mengakses perangkat tersebut secara remote menggunakan laptop.
 
 Lalu saya menemukan alternatif lain, yaitu dengan cara membagikan koneksi internet dari laptop yang terinstal GNU/Linux melalui ethernet yang mana caranya akan saya jelaskan pada tulisan ini.
