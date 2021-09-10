@@ -78,9 +78,9 @@ url = "/policy"
 [params.social]
 domain = "Bradley Yuly"
 email = "brad.yuly@protonmail.com"
-linkedin = "doni-halim-16a6ba1a0"
+linkedin = "linkedinprofilenamehere"
 paypal = "bryuly"
-#	twitter = "halimboi"
+#	twitter = "twitternamehere"
 
 [params.titles]
 categories = "Topics"

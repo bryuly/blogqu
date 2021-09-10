@@ -14,7 +14,7 @@ resources:
 
 # Thank you for your interest.
 
-My name is **Bradley Yuly**. My day job is as a structural engineer. I created this website to document information I have learned through books, podcasts, websites and more. The hope is this website can pass some of that knowledge on to you. 
+My name is **Bradley Yuly**. My day job is as a structural engineer. I created this website to document information I have learned through books, podcasts, websites, and more. The hope is this website can pass some of that knowledge on to you. 
 
 Take what is on my site for what it is, my opinion. I am not an expert but these idea's and principles have helped me to get to where I am today. Information on this website is not to be taken as advice for your personal situation, I take no liability for any decisions made based on information listed on this website.
 
