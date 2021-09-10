@@ -23,5 +23,3 @@ fields:
     min: 
     max: 
   label: blocks...
-pages:
-- content/about.md
