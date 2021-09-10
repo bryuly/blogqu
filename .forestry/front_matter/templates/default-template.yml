@@ -8,3 +8,18 @@ fields:
 - type: text
   name: description
   label: description
+- name: label_1
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: label 1
+- name: blocks___
+  type: blocks
+  template_types:
+  - default-template
+  config:
+    min: 
+    max: 
+  label: blocks...
