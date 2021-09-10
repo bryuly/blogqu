@@ -19,17 +19,15 @@ noreferrerLinks = true
 [imaging]
 resampleFilter = "lanczos"
 [[menu.main]]
-identifier = "profil"
-name = "About"
-title = "Tentang Doni Halim"
-url = "/profil"
-weight = 4
+name = "Finance 101"
+url = "/finance 101"
+weight = 5
 [[menu.main]]
-identifier = "desktop"
-name = "Desktop"
-title = "Kostumisasi lingkungan desktop GNU/Linux"
-url = "/desktop"
-weight = 3
+identifier = "perkakas"
+name = "Perkakas"
+title = "Perkakas GNU/Linux"
+url = "/perkakas"
+weight = 1
 [[menu.main]]
 identifier = "terminal"
 name = "Budgeting"
@@ -37,11 +35,17 @@ title = "Perintah-perintah dasar dan lanjutan GNU/Linux"
 url = "/budgeting"
 weight = 2
 [[menu.main]]
-identifier = "perkakas"
-name = "Perkakas"
-title = "Perkakas GNU/Linux"
-url = "/perkakas"
-weight = 1
+identifier = "desktop"
+name = "Desktop"
+title = "Kostumisasi lingkungan desktop GNU/Linux"
+url = "/desktop"
+weight = 3
+[[menu.main]]
+identifier = "profil"
+name = "About"
+title = "Tentang Doni Halim"
+url = "/profil"
+weight = 4
 [params]
 accentColor = "#00bcd4"
 bodyFont = "Lora"
