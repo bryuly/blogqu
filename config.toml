@@ -24,7 +24,7 @@ resampleFilter = "lanczos"
 
 [[menu.main]]
 name = "Home"
-url = "/categories"
+url = "/:slug"
 weight = 1
 
 [[menu.main]]
