@@ -2,11 +2,11 @@ DefaultContentLanguage = "id"
 RemovePathAccents = true
 baseURL = "https://financetest-by.netlify.app"
 canonifyURLs = true
-disqusShortname = "halimboi"
+disqusShortname = "Bradley"
 enableRobotsTXT = true
-googleAnalytics = "UA-155099144-3"
+#	googleAnalytics = "UA-155099144-3"
 languageCode = "id-ID"
-paginate = 5
+paginate = 9
 theme = "less"
 timeout = 200000
 title = "financetest-by.com"
@@ -19,7 +19,7 @@ hrefTargetBlank = true
 nofollowLinks = true
 noreferrerLinks = true
 [imaging]
-resampleFilter = "lanczos"
+resampleFilter = "lanczos" 
 
 
 [[menu.main]]
@@ -71,6 +71,7 @@ titleFont = "Crimson Text"
 [params.license]
 type = "CC BY-NC 4.0"
 url = "/cc-by-nc"
+
 [params.policy]
 type = "Privacy Policy"
 url = "/policy"
@@ -88,6 +89,7 @@ posts = "Finance 101"
 [permalinks]
 categories = "/:slug"
 posts = "/:slug"
+
 [[related.indices]]
 includeNewer = true
 name = "categories"
