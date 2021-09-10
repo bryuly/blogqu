@@ -32,9 +32,9 @@ url = "/desktop"
 weight = 3
 [[menu.main]]
 identifier = "terminal"
-name = "Terminal"
+name = "Budgeting"
 title = "Perintah-perintah dasar dan lanjutan GNU/Linux"
-url = "/terminal"
+url = "/budgeting"
 weight = 2
 [[menu.main]]
 identifier = "perkakas"
