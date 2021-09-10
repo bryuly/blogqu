@@ -1,98 +1,109 @@
-DefaultContentLanguage = "id"
-RemovePathAccents = true
 baseURL = "https://financetest-by.netlify.app"
-canonifyURLs = true
-disqusShortname = "Bradley"
-enableRobotsTXT = true
-#	googleAnalytics = "UA-155099144-3"
 languageCode = "id-ID"
-paginate = 9
+DefaultContentLanguage = "id"
+title = "financetest-by.com"
 theme = "less"
 timeout = 200000
-title = "financetest-by.com"
-
+RemovePathAccents = true
+enableRobotsTXT = true
+canonifyURLs = true
+#number of pages listed at bottom of page??
+paginate = 2
+googleAnalytics = "UA-155099144-3"
+disqusShortname = "Bradley"
 
 [author]
-name = "Brad Yuly"
+  name = "Bradley Yuly"
+
 [blackfriday]
-hrefTargetBlank = true
-nofollowLinks = true
-noreferrerLinks = true
+  hrefTargetBlank = true
+  noreferrerLinks = true
+  nofollowLinks = true
+
+[permalinks]
+  posts = "/:slug"
+  categories = "/:slug"
+
 [imaging]
-resampleFilter = "lanczos" 
-
-
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-identifier = "terminal"
-name = "Budgeting"
-title = "Manage money so you can do what you want."
-url = "/budgeting"
-weight = 2
-
-[[menu.main]]
-identifier = "retirement"
-name = "Retirement"
-title = "Get to the finish line."
-url = "/retirement"
-weight = 3
-
-[[menu.main]]
-identifier = "finance 101"
-name = "Finance 101"
-title = "Learn some terminology, concepts, and more."
-url = "/desktop"
-weight = 4
-
-[[menu.main]]
-identifier = "about"
-name = "About"
-title = "Who I am."
-url = "/about"
-weight = 5
-
+  resampleFilter = "lanczos"
 
 [params]
-accentColor = "#00bcd4"
-bodyFont = "Lora"
-copyright = "Bradley Yuly"
-hasLogo = true
-heroHeader = true
-sansSerifFont = "Josefin Sans"
-sizes = ["2048", "1024", "512"]
-tags = []
-titleFont = "Crimson Text"
+  #googleAdsense = "ca-pub-3520097993586116"
+  copyright = "Bradley Yuly"
 
+  # image size
+  sizes = [ "2048" , "1024" , "512" ]
+  tags = []
 
-[params.license]
-type = "CC BY-NC 4.0"
-url = "/cc-by-nc"
+  # fonts
+  sansSerifFont = "Josefin Sans"
+  titleFont = "Crimson Text"
+  bodyFont = "Lora"
 
-[params.policy]
-type = "Privacy Policy"
-url = "/policy"
+  # color
+  accentColor = "#00bcd4"
+  hasLogo = true
+  heroHeader = true
 
-[params.social]
-domain = "Bradley Yuly"
-email = "brad.yuly@protonmail.com"
-linkedin = "linkedinprofilenamehere"
-paypal = "bryuly"
-#	twitter = "twitternamehere"
+[taxonomies]
+  category = "categories"
 
 [params.titles]
-categories = "Topics"
-posts = "Finance 101"
-[permalinks]
-categories = "/:slug"
-posts = "/:slug"
+  posts = "Finance 101"
+  categories = "Topics"
+
+# social
+[params.social]
+  email = "brad.yuly@protonmail.com"
+  domain = "Bradley Yuly"
+  instagram = "instagram name here"
+  twitter = "twitter name here"
+  facebook = "facebook name here"
+  linkedin = "linkedin name and number here"
+  github = "username here"
+  paypal = "name here"
+  telegram = "name here"
+
+# menu contents
+[[menu.main]]
+	name = "Home"
+	url = "/"
+	weight = 1
+[[menu.main]]
+	identifier = "terminal"
+	name = "Budgeting"
+	title = "Manage money so you can do what you want."
+	url = "/budgeting"
+	weight = 2
+[[menu.main]]
+	identifier = "retirement"
+	name = "Retirement"
+	title = "Get to the finish line."
+	url = "/retirement"
+	weight = 3
+[[menu.main]]
+	identifier = "finance 101"
+	name = "Finance 101"
+	title = "Learn some terminology, concepts, and more."
+	url = "/desktop"
+	weight = 4
+[[menu.main]]
+	identifier = "about"
+	name = "About"
+	title = "Who I am."
+	url = "/about"
+	weight = 5
+
+# footer contents
+[params.license]
+  type = "Use License"
+  url = "/cc-by-nc"
+
+[params.policy]
+  type = "Privacy Policy"
+  url = "/policy"
 
 [[related.indices]]
-includeNewer = true
-name = "categories"
-weight = 1
-[taxonomies]
-category = "categories"
+  name = "categories"
+  weight =  1
+  includeNewer = true
