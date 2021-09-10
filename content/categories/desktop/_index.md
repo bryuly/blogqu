@@ -1,4 +1,5 @@
 ---
-title: "Desktop"
-description: "Tentang kostumisasi Desktop GNU/Linux."
+title: Desktop
+description: This will later be Finance 101
+
 ---
