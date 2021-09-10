@@ -1,6 +1,6 @@
 DefaultContentLanguage = "id"
 RemovePathAccents = true
-baseURL = "https://halimboi.netlify.app"
+baseURL = "https://financetest-by.netlify.app"
 canonifyURLs = true
 disqusShortname = "halimboi"
 enableRobotsTXT = true
@@ -9,69 +9,82 @@ languageCode = "id-ID"
 paginate = 5
 theme = "less"
 timeout = 200000
-title = "halimboi.com"
+title = "financetest-by.com"
+
+
 [author]
-name = "Doni Halim"
+name = "Brad Yuly"
 [blackfriday]
 hrefTargetBlank = true
 nofollowLinks = true
 noreferrerLinks = true
 [imaging]
 resampleFilter = "lanczos"
+
+
 [[menu.main]]
 name = "Finance 101"
 url = "/finance 101"
 weight = 4
+
 [[menu.main]]
 identifier = "perkakas"
 name = "Perkakas"
 title = "Perkakas GNU/Linux"
 url = "/perkakas"
 weight = 1
+
 [[menu.main]]
 identifier = "terminal"
 name = "Budgeting"
 title = "Perintah-perintah dasar dan lanjutan GNU/Linux"
 url = "/budgeting"
 weight = 2
+
 [[menu.main]]
 identifier = "desktop"
 name = "Desktop"
 title = "Kostumisasi lingkungan desktop GNU/Linux"
 url = "/desktop"
 weight = 3
+
 [[menu.main]]
 identifier = "profil"
 name = "About"
 title = "Tentang Doni Halim"
 url = "/profil"
 weight = 5
+
+
 [params]
 accentColor = "#00bcd4"
 bodyFont = "Lora"
-copyright = "Halimboi"
+copyright = "Bradley Yuly"
 hasLogo = true
 heroHeader = true
 sansSerifFont = "Josefin Sans"
 sizes = ["2048", "1024", "512"]
 tags = []
 titleFont = "Crimson Text"
+
+
 [params.license]
 type = "CC BY-NC 4.0"
 url = "/cc-by-nc"
 [params.policy]
 type = "Privacy Policy"
 url = "/policy"
+
 [params.social]
-domain = "Doni Halim"
-email = "donihalim@protonmail.com"
+domain = "Bradley Yuly"
+email = "brad.yuly@protonmail.com"
 linkedin = "doni-halim-16a6ba1a0"
-paypal = "halimboi"
-telegram = "dsnvhlm"
-twitter = "halimboi"
+paypal = "bryuly"
+#	twitter = "halimboi"
+
 [params.titles]
-categories = "Kategori"
-posts = "Linux"
+categories = "Topics"
+posts = "Finance 101"
 [permalinks]
 categories = "/:slug"
 posts = "/:slug"
