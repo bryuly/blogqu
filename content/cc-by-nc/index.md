@@ -1,17 +1,16 @@
 ---
-draft: false
-date: 2019-06-02T23:11:56+07:00
+date: 2019-06-02T23:11:56.000+07:00
 publishdate: 2019-06-02
 lastmod: 2020-03-07
-title: "Lisensi"
-description : "Jenis lisensi yang digunakan."
-type: "lisensi"
+title: Creative Common Liscense
+description: License in other language...
+type: liscense
 resources:
 - src: "*.jpeg"
-- src: "1.jpeg"
-  name: "cover"
----
+- src: 1.jpeg
+  name: cover
 
+---
 {{< photoset max="2" >}}
   {{< photo src="cover_1.jpeg" alt="Creative Commons" >}}
   {{< photo src="cover_2.jpeg" alt="Lisensi CC BY-NC" >}}
